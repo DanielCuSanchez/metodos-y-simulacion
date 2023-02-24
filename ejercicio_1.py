@@ -1,3 +1,7 @@
+#Requierements
+# pip install matplotlib
+# pip install numpy
+# run code: python ejercicio_1 | python3 ejercicio_1 (MAC)
 #Daniel Cu Sánchez - A01703613
 from random import randint
 import matplotlib.pyplot as plot
