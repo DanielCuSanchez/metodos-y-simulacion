@@ -9,7 +9,7 @@ number = int(input("Choose a number\n1) data01.txt\n2) data02.txt\n3) data03.txt
 # Text file data converted to integer data type
 match number:
   case 1:
-    file = "data01.txt"
+    file = "numbers01.txt"
   case 2:
     file = "data02.txt"
   case 3:

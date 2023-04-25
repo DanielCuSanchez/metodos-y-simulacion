@@ -1,16 +1,21 @@
 import matplotlib.pyplot as plt
 
 # método lineal congruencial (L.C.G.)
-#Linear congruential method: Generate 10 numbers with the following parameters: X0 = 6, a = 32, c = 3, m = 80.
+#Linear congruential method: Generate 500 numbers with the following parameters: X0 = 7, a = 3, c = 1, m = 127.
 def lcg(seed):
     while True:
-        seed = ((32 * seed + 3) % 80)
-        yield seed / 80
-rand = lcg(6)
-values = [next(rand) for _ in range(10)]
+        seed = ((3 * seed + 1) % 127)
+        yield seed / 100
+rand = lcg(7)
+values = [next(rand) for _ in range(500)]
 print(values)
 
-plt.hist(values, bins=10, edgecolor='k', color = '#0c1881', histtype = 'bar')
+with open('output.txt', 'w') as f:
+    for value in values:
+        f.write(format(value))
+        f.write('\n')
+
+plt.hist(values, bins=500, edgecolor='k', color = '#0c1881', histtype = 'bar')
 plt.show()
 
 

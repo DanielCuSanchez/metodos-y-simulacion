@@ -10,7 +10,7 @@ la conclusión acerca de H0 (es decir, si fue rechazada o no y por qué)
 # Run the chi-squared test with the following numbers: chi_data.txt
 
 # import the observed values
-values = np.loadtxt("chi_data.txt", dtype=float)
+values = np.loadtxt("output.txt", dtype=float)
 # round the values to 3 decimals
 observed = np.around(values, 3)
 # define the expected values
