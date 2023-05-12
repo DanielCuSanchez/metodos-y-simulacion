@@ -63,7 +63,7 @@ def calcular_metricas(tabla):
         tiempo_total += tiempo_espera + tiempo_servicio
 
         # Calcular el tiempo inactivo del ATM
-        tiempo_inactividad_atm = float(tabla[i][7])
+        tiempo_inactividad_atm = abs(float(tabla[i][7]))
         tiempo_inactividad_total += max(0, tiempo_inactividad_atm)
 
         # Verificar si el cliente tuvo que esperar en la fila
