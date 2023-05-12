@@ -36,7 +36,7 @@ def generar_tabla(num_clientes, tiempo_max_llegada, tiempo_max_transaccion):
         termino_servicio = (datetime.strptime(inicio_servicio, '%I:%M%p') + timedelta(minutes=tiempo_tramite)).strftime('%I:%M%p')
         tiempo_espera_cliente = (datetime.strptime(inicio_servicio, '%I:%M%p') - datetime.strptime(hora_llegada, '%I:%M%p')).total_seconds() / 60
         tiempo_inactividad_atm = (datetime.strptime(inicio_servicio, '%I:%M%p') - datetime.strptime(termino_servicio, '%I:%M%p')).total_seconds() / 60
-        tabla.append([str(i), str(tiempo_entre_llegadas), hora_llegada, str(tiempo_tramite), inicio_servicio, termino_servicio, str(tiempo_espera_cliente), str(tiempo_inactividad_atm)])
+        tabla.append([str(i), str(tiempo_entre_llegadas), hora_llegada, str(tiempo_tramite), inicio_servicio, termino_servicio, str(tiempo_espera_cliente), str(abs(tiempo_inactividad_atm))])
 
     return tabla
 
@@ -63,7 +63,7 @@ def calcular_metricas(tabla):
         tiempo_total += tiempo_espera + tiempo_servicio
 
         # Calcular el tiempo inactivo del ATM
-        tiempo_inactividad_atm = abs(float(tabla[i][7]))
+        tiempo_inactividad_atm = float(tabla[i][7])
         tiempo_inactividad_total += max(0, tiempo_inactividad_atm)
 
         # Verificar si el cliente tuvo que esperar en la fila
