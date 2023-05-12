@@ -102,15 +102,15 @@ def main():
     clientes = int(input("Ingrese la cantidad de clientes: "))
     tiempo_max_llegada = int(input("Ingrese el tiempo máximo de llegada de clientes (en minutos): "))
     tiempo_max_transaccion = int(input("Ingrese el tiempo máximo de duración de la transacción (en minutos): "))
-    # Generar tabla con 10 clientes
+    # Generar tabla con clientes
     tabla = generar_tabla(clientes,tiempo_max_llegada, tiempo_max_transaccion)
-    # Calcular las métricas
-    calcular_metricas(tabla)
     # Generar CSV
     crear_csv(tabla)
     # Imprimir the CSV file
     file_csv = pd.read_csv("p2_a01703613.csv")
     print(file_csv)
+    # Calcular las métricas
+    calcular_metricas(tabla)
 
 
 if __name__ == "__main__":
