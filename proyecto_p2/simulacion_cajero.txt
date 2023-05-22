@@ -1,0 +1,73 @@
+Cliente 1:
+Hora de llegada: 19 segundos
+Hora de inicio de trámite: 92 segundos
+Hora de finalización de trámite: 96 segundos
+Tiempo de espera: 73 segundos
+Tiempo de servicio: 4 segundos
+
+Cliente 2:
+Hora de llegada: 37 segundos
+Hora de inicio de trámite: 96 segundos
+Hora de finalización de trámite: 98 segundos
+Tiempo de espera: 59 segundos
+Tiempo de servicio: 2 segundos
+
+Cliente 3:
+Hora de llegada: 46 segundos
+Hora de inicio de trámite: 98 segundos
+Hora de finalización de trámite: 100 segundos
+Tiempo de espera: 52 segundos
+Tiempo de servicio: 2 segundos
+
+Cliente 4:
+Hora de llegada: 51 segundos
+Hora de inicio de trámite: 100 segundos
+Hora de finalización de trámite: 102 segundos
+Tiempo de espera: 49 segundos
+Tiempo de servicio: 2 segundos
+
+Cliente 5:
+Hora de llegada: 54 segundos
+Hora de inicio de trámite: 102 segundos
+Hora de finalización de trámite: 103 segundos
+Tiempo de espera: 48 segundos
+Tiempo de servicio: 1 segundos
+
+Cliente 6:
+Hora de llegada: 74 segundos
+Hora de inicio de trámite: 103 segundos
+Hora de finalización de trámite: 107 segundos
+Tiempo de espera: 29 segundos
+Tiempo de servicio: 4 segundos
+
+Cliente 7:
+Hora de llegada: 79 segundos
+Hora de inicio de trámite: 107 segundos
+Hora de finalización de trámite: 109 segundos
+Tiempo de espera: 28 segundos
+Tiempo de servicio: 2 segundos
+
+Cliente 8:
+Hora de llegada: 80 segundos
+Hora de inicio de trámite: 109 segundos
+Hora de finalización de trámite: 113 segundos
+Tiempo de espera: 29 segundos
+Tiempo de servicio: 4 segundos
+
+Cliente 9:
+Hora de llegada: 91 segundos
+Hora de inicio de trámite: 113 segundos
+Hora de finalización de trámite: 116 segundos
+Tiempo de espera: 22 segundos
+Tiempo de servicio: 3 segundos
+
+Cliente 10:
+Hora de llegada: 92 segundos
+Hora de inicio de trámite: 116 segundos
+Hora de finalización de trámite: 118 segundos
+Tiempo de espera: 24 segundos
+Tiempo de servicio: 2 segundos
+
+Resultados finales:
+Tiempo promedio de espera por cliente: 41.3 segundos
+Probabilidad de que un cliente espere en la fila: 3.5
