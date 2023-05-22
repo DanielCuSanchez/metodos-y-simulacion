@@ -1,0 +1,11 @@
+Cliente,Tiempo entre llegadas,Hora de llegada,Tiempo del tramite,Inicia servicio,Termina servicio,Tiempo de espera cliente,Tiempo inactividad del ATM
+1,0,07:57AM,2,07:57AM,07:59AM,0,0
+2,1,07:58AM,1,07:59AM,08:00AM,1.0,1.0
+3,3,08:01AM,5,08:01AM,08:06AM,0.0,5.0
+4,1,08:02AM,3,08:06AM,08:09AM,4.0,3.0
+5,4,08:06AM,4,08:09AM,08:13AM,3.0,4.0
+6,1,08:07AM,1,08:13AM,08:14AM,6.0,1.0
+7,3,08:10AM,1,08:14AM,08:15AM,4.0,1.0
+8,2,08:12AM,1,08:15AM,08:16AM,3.0,1.0
+9,2,08:14AM,4,08:16AM,08:20AM,2.0,4.0
+10,1,08:15AM,1,08:20AM,08:21AM,5.0,1.0

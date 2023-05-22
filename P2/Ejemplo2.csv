@@ -1,0 +1,4 @@
+﻿Cliente,Tiempo entre llegadas,hora de llegada,tiempo de tramite,inicio de tramite,termina tramite,tiempo de espera de cliente,tiempo de inactividad
+1,0,0.375,4,0.375,0.377777778,0,0
+2,1,0.375694444,1,0.377777778,0.378472222,3,0
+3,10,0.382638889,5,0.382638889,0.386111111,0,6
