@@ -1,0 +1,590 @@
+Matriz inicial:
+	0.0	0.4	0.6	
+	0.2	0.0	0.8	
+	0.15	0.85	0.0	
+Número de guerreros por cada grupo
+Grupo 1: 50
+Grupo 2: 40
+Grupo 3: 60
+==================================
+
+Grupo 2 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 40
+Grupo 3: 60
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 39
+Grupo 3: 60
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 38
+Grupo 3: 60
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 37
+Grupo 3: 60
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 36
+Grupo 3: 60
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 35
+Grupo 3: 60
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 35
+Grupo 3: 59
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 34
+Grupo 3: 59
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 34
+Grupo 3: 58
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 34
+Grupo 3: 57
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 34
+Grupo 3: 56
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 34
+Grupo 3: 55
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 33
+Grupo 3: 55
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 33
+Grupo 3: 54
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 33
+Grupo 3: 53
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 33
+Grupo 3: 52
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 32
+Grupo 3: 52
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 31
+Grupo 3: 52
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 49
+Grupo 2: 30
+Grupo 3: 52
+==================================
+
+Grupo 2 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 30
+Grupo 3: 52
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 29
+Grupo 3: 52
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 28
+Grupo 3: 52
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 28
+Grupo 3: 51
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 28
+Grupo 3: 50
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 27
+Grupo 3: 50
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 26
+Grupo 3: 50
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 26
+Grupo 3: 49
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 26
+Grupo 3: 48
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 26
+Grupo 3: 47
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 48
+Grupo 2: 26
+Grupo 3: 46
+==================================
+
+Grupo 3 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 47
+Grupo 2: 26
+Grupo 3: 46
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 47
+Grupo 2: 26
+Grupo 3: 45
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 47
+Grupo 2: 25
+Grupo 3: 45
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 47
+Grupo 2: 25
+Grupo 3: 44
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 47
+Grupo 2: 24
+Grupo 3: 44
+==================================
+
+Grupo 2 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 24
+Grupo 3: 44
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 23
+Grupo 3: 44
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 23
+Grupo 3: 43
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 23
+Grupo 3: 42
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 22
+Grupo 3: 42
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 21
+Grupo 3: 42
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 21
+Grupo 3: 41
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 20
+Grupo 3: 41
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 19
+Grupo 3: 41
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 46
+Grupo 2: 18
+Grupo 3: 41
+==================================
+
+Grupo 3 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 45
+Grupo 2: 18
+Grupo 3: 41
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 45
+Grupo 2: 17
+Grupo 3: 41
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 45
+Grupo 2: 17
+Grupo 3: 40
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 45
+Grupo 2: 17
+Grupo 3: 39
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 45
+Grupo 2: 17
+Grupo 3: 38
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 45
+Grupo 2: 16
+Grupo 3: 38
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 45
+Grupo 2: 16
+Grupo 3: 37
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 45
+Grupo 2: 15
+Grupo 3: 37
+==================================
+
+Grupo 2 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 15
+Grupo 3: 37
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 14
+Grupo 3: 37
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 13
+Grupo 3: 37
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 13
+Grupo 3: 36
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 12
+Grupo 3: 36
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 12
+Grupo 3: 35
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 11
+Grupo 3: 35
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 11
+Grupo 3: 34
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 10
+Grupo 3: 34
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 9
+Grupo 3: 34
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 8
+Grupo 3: 34
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 8
+Grupo 3: 33
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 44
+Grupo 2: 8
+Grupo 3: 32
+==================================
+
+Grupo 3 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 8
+Grupo 3: 32
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 7
+Grupo 3: 32
+==================================
+
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 6
+Grupo 3: 32
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 6
+Grupo 3: 31
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 6
+Grupo 3: 30
+==================================
+
+Grupo 2 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 6
+Grupo 3: 29
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 5
+Grupo 3: 29
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 4
+Grupo 3: 29
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 4
+Grupo 3: 28
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 43
+Grupo 2: 3
+Grupo 3: 28
+==================================
+
+Grupo 2 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 42
+Grupo 2: 3
+Grupo 3: 28
+==================================
+
+Grupo 2 atacó al Grupo 1!
+Número de guerreros por cada grupo
+Grupo 1: 41
+Grupo 2: 3
+Grupo 3: 28
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 41
+Grupo 2: 2
+Grupo 3: 28
+==================================
+
+Grupo 1 atacó al Grupo 3!
+Número de guerreros por cada grupo
+Grupo 1: 41
+Grupo 2: 2
+Grupo 3: 27
+==================================
+
+Grupo 3 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 41
+Grupo 2: 1
+Grupo 3: 27
+==================================
+
+Grupo 2 es aniquilado!
+
+Reconfigurando matriz estocástica
+
+	0.0	1.0	
+	1.0	0.0	
+Grupo 1 atacó al Grupo 2!
+Número de guerreros por cada grupo
+Grupo 1: 41
+Grupo 2: 0
+Grupo 3: 27
+==================================
+
