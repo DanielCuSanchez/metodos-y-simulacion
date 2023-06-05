@@ -1,13 +1,16 @@
 import sys
 import numpy as np
 
-# Función que representa un ataque de un grupo a otro
+# Simula el ataque de un grupo a otro
 def atacar(matriz, grupos):
     # Creamos un vector para registrar el número original de cada grupo
     grupo_numeros = np.arange(len(grupos)) + 1
     while np.count_nonzero(grupos) > 1: # Mientras exista más de un grupo vivo
+
         # Seleccionamos aleatoriamente el grupo atacante de los grupos que aún tienen guerreros y tienen posibles víctimas
         posibles_atacantes = np.where((grupos > 0) & (np.sum(matriz > 0, axis=1) > 0))[0]
+
+
         if len(posibles_atacantes) == 0:  # Si no hay posibles atacantes, se sale del bucle
             break
         atacante = np.random.choice(posibles_atacantes)
@@ -18,6 +21,7 @@ def atacar(matriz, grupos):
         # Reducimos el número de guerreros del grupo víctima
         grupos[victima] -= 1
         print(f"Grupo {grupo_numeros[atacante]} ataco al Grupo {grupo_numeros[victima]}!")
+
         # Si el grupo víctima ha sido aniquilado, reconfiguramos la matriz estocástica y el vector de grupos
         if grupos[victima] == 0:
             print(f"Grupo {grupo_numeros[victima]} ha sido aniquilado!\n")
@@ -28,19 +32,17 @@ def atacar(matriz, grupos):
             imprimir_matriz(matriz)
         print("Numero de guerreros por cada grupo")
         imprimir_grupos(grupos)
-    print("===============================\n")
+    print("================[Fin de batalla]===============\n")
     ganador = np.where(grupos > 0)[0]
     if ganador.size > 0:
-        print("El ganador es el Grupo", grupo_numeros[ganador[0]], "\n")
-    else:
-        print("No hay ganadores\n")
-    print("===============================\n")
+        print("El ganador es el grupo", grupo_numeros[ganador[0]], "\n")
 
 
 
 
 
-# Función para reconfigurar la matriz estocástica cuando un grupo es aniquilado
+
+# Reconfigura la matriz estocástica cuando un grupo es aniquilado
 def reconfigurar_matriz(matriz, indice):
     matriz = np.delete(matriz, indice, 0) # Eliminamos la fila correspondiente al grupo aniquilado
     matriz = np.delete(matriz, indice, 1) # Eliminamos la columna correspondiente al grupo aniquilado
@@ -54,52 +56,53 @@ def reconfigurar_matriz(matriz, indice):
 
 
 
-# Función para imprimir la matriz
+# Imprimir la matriz
 def imprimir_matriz(matriz):
     for i in range(len(matriz)):
         for j in range(len(matriz[i])):
             print(round(matriz[i][j], 2), end="\t")
-        print()
+        print("\n")
+    print("================[Matriz actualizada]=================\n")
 
-# Función para imprimir los grupos
+# Imprimir los grupos
 def imprimir_grupos(grupos):
     for i in range(len(grupos)):
         print(f"Grupo {i + 1}: {grupos[i]}")
-    print("==================================\n")
+    print("================[Grupos actualizados]=================\n")
 
 
-# Función para generar la matriz estocástica de forma aleatoria
-def generar_matriz_aleatoria(n):
-    matriz = np.random.random((n, n)) # Genera una matriz nxn con números aleatorios entre 0 y 1
-    np.fill_diagonal(matriz, 0) # Los guerreros de un grupo no pueden atacarse entre sí
+# Genera la matriz estocástica de forma aleatoria
+def crear_matriz_aleatoria(n):
+    matriz = np.random.random((n, n)) # Crea la matriz con numeros aleatorios
+    np.fill_diagonal(matriz, 0) # Previene el ataca entre grupos
     # Normalizamos las filas para que sean estocásticas
     matriz /= matriz.sum(axis=1, keepdims=True)
     return matriz
 
-# Función para generar la cantidad de guerreros por grupo de forma aleatoria
+# Genera la cantidad de guerreros por grupo de forma aleatoria
 def generar_guerreros(n):
-    guerreros = np.random.randint(5, 15, n) # Genera un número aleatorio de guerreros por grupo entre 5 y 15
+    guerreros = np.random.randint(5, 15, n) # Guerreros por grupo entre 5 y 15
     return guerreros
 
-# Función principal
+# Función principal del programa
 def main():
     # Número de grupos
-    n = int(input("Ingresa a cantidad de grupos: "))
-    # Cambiamos la salida estándar al archivo output.txt
-    sys.stdout = open('output.txt', 'w')
+    n = int(input("Ingresa a cantidad de grupos 🦸: "))
 
     # Generamos los grupos y la matriz estocástica de forma aleatoria
     grupos = generar_guerreros(n)
-    matriz = generar_matriz_aleatoria(n)
+    matriz = crear_matriz_aleatoria(n)
 
-    print("Matriz inicial:")
+    # Permite enviar a un texto la salida por consola
+    sys.stdout = open('output.txt', 'w')
+    print("========= Matriz inicial =========")
     imprimir_matriz(matriz)
-    print("Numero de guerreros por cada grupo")
+    print("========= Numero de guerreros inicial  =========")
     imprimir_grupos(grupos)
 
-    # Comenzamos la batalla
+    # Esta función permite simular la batalla. ⚔️
     atacar(matriz, grupos)
 
-# Ejecutamos la función principal
+# Condicional de arranque
 if __name__ == "__main__":
     main()
